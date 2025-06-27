@@ -5,16 +5,20 @@
   <header class="hero text-center text-white">
     <h1>Counter Strike 2D</h1>
     <p class="lead">Un clásico reimaginado en 2D, multijugador, por rondas</p>
-    <a href="https://github.com/martinSaav/counter-strike-2D" class="btn btn-primary btn-lg">Descargar Juego</a>
+    <a href="https://github.com/martinSaav/counter-strike-2D/releases" class="btn btn-primary btn-lg">Descargar Juego</a>
   </header>
 
-  <!-- Descripción -->
+  <!-- Descripcion -->
   <section class="container py-5">
     <h2 class="section-title">¿De qué se trata?</h2>
-    <p>
-      Dos equipos se enfrentan en intensas partidas por rondas. El objetivo de los terroristas es plantar una bomba y protegerla. Los antiterroristas deben impedirlo o desactivarla a tiempo.
+    <p class="text-justify mt-3 fs-5">
+      El juego consiste en una batalla armada entre dos bandos, donde los terroristas querrán plantar una bomba
+      para ganar la partida, mientras que los anti-terroristas harán lo posible para impedirlo. La partida terminará
+      luego de jugadas diez rondas (configurable). Cada ronda finaliza cuando todos los integrantes de un bando
+      hayan sido eliminados, cuando los terroristas planten la bomba y ésta explote luego de un tiempo, o luego de
+      que los anti-terroristas desactiven dicha bomba.
     </p>
-    <img src="assets/img/gameplay.png" class="img-fluid rounded mt-3" alt="Gameplay">
+  <img src="assets/img/gameplay.png" class="img-fluid rounded mt-3" alt="Gameplay">
   </section>
 
   <!-- Características -->
@@ -23,62 +27,65 @@
     <div class="row text-center mt-4">
       <div class="col-md-3">
         <div class="card p-3">
-          <h5>🎮 Multijugador</h5>
-          <p>Jugá con amigos en red local o internet</p>
+          <h5 class="text-light">🎮 Multijugador</h5>
+          <p class="text-light">Jugá con amigos en red local o internet</p>
         </div>
       </div>
       <div class="col-md-3">
         <div class="card p-3">
-          <h5>💣 Modo bomba</h5>
-          <p>Plantar, proteger, desactivar: ¡estrategia pura!</p>
+          <h5 class="text-light">💣 Modo bomba</h5>
+          <p class="text-light">Plantar, proteger, desactivar: ¡estrategia pura!</p>
         </div>
       </div>
       <div class="col-md-3">
         <div class="card p-3">
-          <h5>🔫 Variedad de armas</h5>
-          <p>Pistolas, rifles, escopetas y más</p>
+          <h5 class="text-light">🔫 Variedad de armas</h5>
+          <p class="text-light">Pistolas, rifles, escopetas y más</p>
         </div>
       </div>
       <div class="col-md-3">
         <div class="card p-3">
-          <h5>🧠 Fases de compra</h5>
-          <p>Equipate al inicio de cada ronda</p>
+          <h5 class="text-light">🧠 Fases de compra</h5>
+          <p class="text-light">Equipate al inicio de cada ronda</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Controles -->
-  <section class="container py-5">
-    <h2 class="section-title">Controles</h2>
-    <div class="row">
-      <div class="col-md-6">
-        <ul class="list-group">
-          <li class="list-group-item bg-dark text-light">WASD: Movimiento</li>
-          <li class="list-group-item bg-dark text-light">Mouse: Apuntar y disparar</li>
-          <li class="list-group-item bg-dark text-light">1-4: Cambiar arma</li>
-          <li class="list-group-item bg-dark text-light">R: Recargar</li>
-          <li class="list-group-item bg-dark text-light">E: Recoger arma</li>
-          <li class="list-group-item bg-dark text-light">F: Desactivar bomba</li>
-        </ul>
-      </div>
-      <div class="col-md-6">
-        <img src="assets/img/controls.png" class="img-fluid rounded" alt="Controles">
+<!-- Video Trailer -->
+<section class="container text-center py-5">
+  <h2 class="section-title">🎬 Trailer</h2>
+  <div class="ratio ratio-16x9">
+    <iframe src="https://www.youtube.com/embed/5lVPWe2ZH6c" title="Trailer del juego" allowfullscreen></iframe>
+  </div>
+</section>
+
+<!-- Botones -->
+<section class="text-center py-4">
+  <a href="assets/manual.pdf" class="btn btn-warning btn-lg m-2 fw-bold text-dark shadow" target="_blank">Manual de usuario</a>
+</section>
+
+<!-- Acerca de nosotros -->
+<section class="container py-5 text-center">
+  <h2 class="section-title">👥 Acerca de nosotros</h2>
+  <div class="row justify-content-center mt-4">
+    <div class="col-6 col-sm-4 col-md-3 mb-4">
+      <img src="assets/img/martin.jpg" alt="Martín Saavedra" class="img-fluid rounded shadow">
+      <div class="mt-2">
+        <a href="https://github.com/martinSaav" target="_blank" class="btn btn-warning fw-bold text-dark mb-1">Github</a><br>
+        <a href="mailto:martin@example.com" class="btn btn-warning fw-bold text-dark">Mail</a>
       </div>
     </div>
-  </section>
+    <div class="col-6 col-sm-4 col-md-3 mb-4">
+      <img src="assets/img/user2.png" alt="Integrante 2" class="img-fluid rounded shadow">
+      <div class="mt-2">
+        <a href="#" class="btn btn-warning fw-bold text-dark mb-1">Github</a><br>
+        <a href="#" class="btn btn-warning fw-bold text-dark">Mail</a>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <!-- Instalación -->
-  <section class="container py-5">
-    <h2 class="section-title">Instalación</h2>
-    <p>Simple y automática:</p>
-    <ol>
-      <li>Cloná el repositorio</li>
-      <li>Ejecutá el script `install.sh`</li>
-      <li>Usá `client.sh` y `server.sh` desde el escritorio</li>
-    </ol>
-  </section>
-  
 
   <!-- Footer -->
   <footer>
