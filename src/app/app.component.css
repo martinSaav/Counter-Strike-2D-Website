@@ -1,0 +1,38 @@
+main {
+    background-color: #0d1117;
+    color: #c9d1d9;
+}
+
+.hero {
+    /* background: url('assets/img/hero.jpg') center/cover no-repeat; */
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-shadow: 1px 1px 3px black;
+}
+.hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+.section-title {
+    color: #58a6ff;
+    border-bottom: 2px solid #58a6ff;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+.card {
+    background-color: #161b22;
+    border: none;
+}
+.btn-primary {
+    background-color: #238636;
+    border: none;
+}
+footer {
+    background-color: #161b22;
+    padding: 2rem 0;
+    text-align: center;
+    color: #8b949e;
+}
